@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mengxuegu-cloud-eureka" />
+        <module name="mengxuegu-cloud-gateway" />
+        <module name="mengxuegu-cloud-oauth2-base" />
+        <module name="mengxuegu-cloud-oauth2-resource-product" />
+        <module name="mengxuegu-cloud-oauth2-server" />
+        <module name="mengxuegu-cloud-oauth2-sso-client1" />
+        <module name="mengxuegu-cloud-oauth2-sso-client2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mengxuegu-cloud-oauth2-auth-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
